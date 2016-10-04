@@ -27,10 +27,22 @@ public class Main {
 
         }
     }
+/**
+ * Альтернативный способ вывода на экран поля
 
+    public void showBoards(){
+        for (int i = 0; i < field.length; i++) { пробегаемся по массиву
+            for (int j = 0; j < field.length; j++) { пробегаемся по массиву
+                System.out.print(field[i][j]); выводим на консоль полученне значения
+            }
+            System.out.println();
+        }
+    }
+*/
     public static void main(String[] args) {
         Main main = new Main();
         main.createBoard();
         main.showBoard();
+//      main.showBoards();
     }
 }
