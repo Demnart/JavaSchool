@@ -1,4 +1,4 @@
-package Lesson5;
+package Lesson5Interfaces;
 
 /**
  * Created by Артем on 13.10.2016.

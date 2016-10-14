@@ -1,9 +1,9 @@
-package Lesson5;
+package Lesson5Interfaces;
 
 /**
  * Created by Артем on 13.10.2016.
  */
-public class Ford extends Car {
+public class Ferrari implements Rulable,IStop {
     @Override
     public void turnLeft() {
 
@@ -32,5 +32,10 @@ public class Ford extends Car {
     @Override
     public int getGear() {
         return 0;
+    }
+
+    @Override
+    public void stop(int a) {
+
     }
 }
