@@ -3,14 +3,17 @@ package starPort;
 /**
  * Created by Артем on 07.10.2016.
  */
-public class StarShip {
+public class StarShip implements Flyable {
     Pilot pilot;
 
     public StarShip(Pilot pilot) {
         this.pilot = pilot;
     }
 
-    void launch(){
+    public StarShip() {
+    }
+
+    public void launch(){
         System.out.println("Все двигатели запущены");
         System.out.println("Взлет с пилотом " + pilot.name);
     }

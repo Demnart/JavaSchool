@@ -6,9 +6,9 @@ package starPort;
 public class StarPort {
     String  name;
     MissionControlCenter missionControlCenter;
-    StarShip starShip;
+    Flyable starShip;
 
-    public StarPort(String name, MissionControlCenter missionControlCenter, StarShip starShip) {
+    public StarPort(String name, MissionControlCenter missionControlCenter, Flyable starShip) {
         this.name = name;
         this.missionControlCenter = missionControlCenter;
         this.starShip = starShip;
